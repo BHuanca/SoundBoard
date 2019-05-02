@@ -13,6 +13,7 @@
 		F32AAC6E227B7B2700084693 /* SoundBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F32AAC6C227B7B2700084693 /* SoundBoard.xcdatamodeld */; };
 		F32AAC70227B7B2800084693 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F32AAC6F227B7B2800084693 /* Assets.xcassets */; };
 		F32AAC73227B7B2800084693 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F32AAC71227B7B2800084693 /* LaunchScreen.storyboard */; };
+		F32AAC7B227B819200084693 /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32AAC7A227B819200084693 /* SoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F32AAC6F227B7B2800084693 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F32AAC72227B7B2800084693 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F32AAC74227B7B2800084693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F32AAC7A227B819200084693 /* SoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				F32AAC71227B7B2800084693 /* LaunchScreen.storyboard */,
 				F32AAC74227B7B2800084693 /* Info.plist */,
 				F32AAC6C227B7B2700084693 /* SoundBoard.xcdatamodeld */,
+				F32AAC7A227B819200084693 /* SoundViewController.swift */,
 			);
 			path = SoundBoard;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F32AAC7B227B819200084693 /* SoundViewController.swift in Sources */,
 				F32AAC6E227B7B2700084693 /* SoundBoard.xcdatamodeld in Sources */,
 				F32AAC68227B7B2700084693 /* ViewController.swift in Sources */,
 				F32AAC66227B7B2700084693 /* AppDelegate.swift in Sources */,
@@ -289,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3Y52Y5YF4T;
 				INFOPLIST_FILE = SoundBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3Y52Y5YF4T;
 				INFOPLIST_FILE = SoundBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
